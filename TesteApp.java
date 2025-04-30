@@ -1,7 +1,7 @@
 package Encapsulamento;
 public class TesteApp{
     public static void main(String[] args){
-         Cliente cliente=new Cliente("Gabriel","043.186.772.06","grb99@gmail.com","21999988877","Niteroi");
+         Cliente cliente=new Cliente("Gabriel","98765665438","grb99@gmail.com","21999988877","Niteroi");
 
          System.out.println("Nome do cliente: "+cliente.getNome());
          cliente.setNome("Wemilly");
