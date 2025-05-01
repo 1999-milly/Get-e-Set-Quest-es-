@@ -12,6 +12,7 @@ public class Cliente{
         this.email=email;
         this.telefone=telefone;
         this.endereco=endereco;
+        System.out.println("Nome: "+nome+" | CPF: "+cpf+" | E-mail: "+email+" | Contato: "+telefone+" | Endereco: "+endereco);
     }
     public void setNome(String nome){
         this.nome=nome;
