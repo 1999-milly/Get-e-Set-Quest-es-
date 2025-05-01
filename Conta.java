@@ -14,7 +14,7 @@ public class Conta{
     public boolean saca(double valor){
         if(this.saldo>=valor){
             this.saldo-=valor;
-            System.out.println("Saque realizado com sucesso");
+            System.out.println("Saque realizado com sucesso no valor de "+valor+" reais, ficando a conta com um saldo de "+this.saldo+" reais.");
             return true;
         }else{
             System.out.println("Saldo insuficiente para saque");
