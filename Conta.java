@@ -10,6 +10,7 @@ public class Conta{
         this.saldo=saldo;
         this.titular=titular;
         this.agencia=agencia;
+        System.out.println("Titular: "+titular+" | Numero: "+numero+" | Saldo: "+saldo+" | Agencia: "+agencia);
     }
     public boolean saca(double valor){
         if(this.saldo>=valor){
