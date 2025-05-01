@@ -11,7 +11,7 @@ public class TesteApp{
          System.out.println("Novo CPF do cliente: "+cliente.getCpf());
 
          Conta conta=new Conta(938338,9383,"Wemilly","908-0");
-         System.out.println("\nNumero da conta: "+conta.getNumero());
+         System.out.println("Numero da conta: "+conta.getNumero());
          conta.setNumero(12345);
          System.out.println("Novo numero da conta: "+conta.getNumero());
          conta.saca(10000);
